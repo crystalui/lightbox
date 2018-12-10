@@ -1,16 +1,18 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppComponent } from './app.component';
+import { FeatureShowcaseComponent } from './feature-showcase.component';
+import { CrystalLightboxModule } from './lightbox/lightbox.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    FeatureShowcaseComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    CrystalLightboxModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [FeatureShowcaseComponent]
 })
 export class AppModule { }

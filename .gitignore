@@ -4,6 +4,7 @@
 /dist
 /tmp
 /out-tsc
+/src/app/lightbox
 
 # dependencies
 /node_modules
